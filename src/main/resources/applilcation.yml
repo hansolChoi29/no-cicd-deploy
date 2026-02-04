@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: no-cicd-deploy
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    default: local
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+
+server:
+  port: 8080
